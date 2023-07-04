@@ -1,7 +1,7 @@
 clc;clear all;
 input = imread('pic.jpg');        %Read the Image
 [r,c] = size(input);        %get the size of image  
-shift=-150;
+shift=-150; 
 scale=3; 
 grayscale = 0:255;           %r is grayscale       %Defining input pixels
 trans_function = round(scale*grayscale)+ shift;%in gray scale we must have integer values so we need to round our data  %linear Transformation function
