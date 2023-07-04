@@ -42,7 +42,7 @@ title('input hist')
 subplot(2,2,4);
 stem(hist_output);
 title('output hist')
-%% generating PDF of histograms by fourmula which says hist divide by number of pixels
+%% generating PDF of histograms by fourmula which says hist divide by number of pixels 
 pdf_input=hist_input/r/c;
 %% generating CDF of PDF
 cdf_tranformation=zeros(1,256);
