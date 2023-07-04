@@ -68,7 +68,7 @@ for i1=1:r                                       %loop tracing the rows of image
         end
     end
 end     
-%Plotting input image output image and their respective histograms
+%Plotting input image output image and their respective histograms 
 figure(2);
 sgtitle('cdf transformation function')
 subplot(2,2,1);
