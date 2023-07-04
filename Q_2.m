@@ -45,7 +45,7 @@ title('output hist')
 %% generating PDF of histograms by fourmula which says hist divide by number of pixels 
 pdf_input=hist_input/r/c;
 %% generating CDF of PDF
-cdf_tranformation=zeros(1,256);
+ cdf_tranformation=zeros(1,256);
 for i=2:256
     cdf_tranformation(1)=pdf_input(1);
     cdf_tranformation(i)=cdf_tranformation(i-1)+pdf_input(i);
