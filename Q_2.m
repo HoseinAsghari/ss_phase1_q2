@@ -1,5 +1,5 @@
 clc;clear all;
-input = imread('pic.jpg');                %Read the Image
+input = imread('pic.jpg');        %Read the Image
 [r,c] = size(input);           %get the size of image  
 shift=-150;
 scale=3; 
