@@ -12,7 +12,7 @@ for i=1:r
         output(i,j)=trans_function(t);        %Making the ouput image using 
     end                                      %the transformation function
 end
-%Procedure for plotting histogram
+% Procedure for plotting histogram
 hist_input = zeros(1,256);                               %prealocation space for input histogram
 hist_output = zeros(1,256);                               %prealocation space for output histogram
 for i1=1:r                                      %loop tracing the rows of image 
