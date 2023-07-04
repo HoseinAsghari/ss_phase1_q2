@@ -8,7 +8,7 @@ trans_function = round(scale*grayscale)+ shift;% in gray scale we must have inte
 output = zeros(r,c);
 for i=1:r                                       
     for j=1:c
-        t=(input(i,j)+1);            %pixel values in image because of matlab starts from 1 index we need to +1
+        t=(input(i,j)+1);            %pixel values in image because of matlab starts from 1 index we need to +1 
         output(i,j)=trans_function(t);        %Making the ouput image using 
     end                                      %the transformation function
 end
