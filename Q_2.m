@@ -59,7 +59,7 @@ for i=1:r
     end                                      %the transformation function
 end
 % defining histogram
-for i1=1:r                                      %loop tracing the rows of image 
+for i1=1:r                                       %loop tracing the rows of image 
     for j1=1:c                                   %loop tracing the Columns of image
         for k1=0:255                                %loop checking which graylevel
             if output(i1,j1)==k1                        %for output image because of matlab starts from 1 index we need to +1
