@@ -83,7 +83,7 @@ title('input hist')
 subplot(2,2,4);
 stem(hist_output);
 title('output hist')
-%% log and power transformation function
+%% log and power transformation function 
 a=im2double(input);
 power_a=zeros(r,c);%pre allocation
 log_a=zeros(r,c);%pre allocation
