@@ -52,7 +52,7 @@ for i=2:256
 end
 cdf_tranformation=round(cdf_tranformation*255);%it is our transformation function % at first we scale it bt 256 according to our grayscale and then round it not to occur float numbers
 % defining output matrix
-for i=1:r                                       
+for i=1:r                                        
     for j=1:c
         t=(input(i,j)+1);            %pixel values in image because of matlab starts from 1 index we need to +1
         output(i,j)=cdf_tranformation(t);        %Making the ouput image using 
