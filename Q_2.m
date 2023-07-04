@@ -107,8 +107,8 @@ title('power transformation')
 subplot(1,3,3);
 imshow((log_a));
 title('log transformation')
-%% matlab defined function
-y=histeq(input);
+%% matlab defined function 
+y=histeq(input); 
 figure(4);
 imshow(y)
 title('histeq')
