@@ -96,7 +96,7 @@ power_a(i,j)=factor* (a(i,j)^power);
     end
 end
 %plot
-figure(3);
+figure(3); 
 sgtitle('log and power transformation')
 subplot(1,3,1);
 imshow(input);
